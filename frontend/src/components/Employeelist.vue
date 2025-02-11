@@ -1,7 +1,7 @@
 <template>
   
   <div class="employee-list-container">
-    <h1><img id="icon" src="../../public/img/favicon_io (1)/favicon-32x32.png">ModernTech Employees</h1>
+    <h1><img id="icon" src="/favicon-32x32.png">ModernTech Employees</h1>
     <!--modals-->
     <div v-if="addModal" class="modal">
       <div class="modal-content">

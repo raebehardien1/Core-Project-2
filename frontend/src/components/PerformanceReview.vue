@@ -1,5 +1,5 @@
 <template>
-  <h1><img id="icon" src="../../public/img/favicon_io (1)/favicon-32x32.png">Performance Reviews</h1>
+  <h1><img id="icon" src="/favicon-32x32.png">Performance Reviews</h1>
   <button @click="showModal = true" class="btn">+ New Review</button>
 
   <!-- Modal -->

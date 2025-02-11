@@ -79,7 +79,7 @@ export default createStore({
     deleteAttendanceAndLeaveToState(state, record_id) {
       state.attendanceandleave = state.attendanceandleave.filter(record => record.record_id !== record_id);
     },
-
+ 
     // leave status mutation
     UPDATE_LEAVE_STATUS(state, { recordId, status, employeeId }) {
       const recordIndex = state.attendanceandleave.findIndex(emp => emp.record_id === recordId && emp.employee_id === employeeId);
@@ -97,7 +97,7 @@ export default createStore({
       if (index !== -1) {
         state.attendanceandleave[index] = updatedRecord;
       }
-    }
+    } 
     
     
   },
