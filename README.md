@@ -1,31 +1,57 @@
-Hi Ruth/Matthew 
+ModernTech Solutions hr-management system
 
-To run follow the below steps:
+A fully functional hr-management web application built by Keanan,Raeesa and Siya for the Module 1 assignment. ModernTech offers a solution to hr managers making it easier manage their employees.
 
-git clone or download zip
-Step 1
--open terminal 1 -
-cd frontend
--open terminal 2- 
-cd api 
+Table of ContentsA
+Live Demo
+Technologies Used
+Setup Instructions
+Key Features
+Credits (If Applicable)
+Author
+Live Demo
+Link to the live deployed website
 
-Step 2
-Install node modules in each terminal by inserting: npm i 
+Technologies Used
+Front-end: Vue
+Styling: Custom CSS
+Setup Instructions
+Follow these steps to run the web app on your local development environment:
 
-Step 3:
--In terminal 1 run : npm run serve
--In terminal 2 run : node  index.js or node --watch index.js
+Prerequisites:
 
-MUST DO
-Save datbase file
-open MYSQL app
-go to server , choose data import
-open the saved database file
-create scheme to add to system
-go to import progress
-import 
+MySQL Server installed and running
+Clone the Repository:
 
-FINISH:)
+git clone https://github.com/raebehardien1/Core-Project.git
+Install Dependencies (if using Composer):
 
-Much thanks,
-SRK Technolgy (Siya , Raeesa, Keanan)
+npm i
+Run the Development Server (Example using PHP's built-in server):
+
+npm run serve 
+Then, open your web browser and navigate to http://localhost:8000.
+
+##Login details
+
+User: admin
+Pwd: admin
+role: finance
+Key Features
+This hr-management system implements the following key features:
+
+User Login and Registration: Secure user registration and login functionality.
+User Interface Design and UX/UI Principles: A user-friendly and visually appealing design adhering to UX/UI best practices.
+Responsive Design Implementation: The website adapts seamlessly to various screen sizes (desktop, tablet, mobile).
+Authentication and User Management: Secure authentication for users and potentially an administrative interface for managing the website.
+Product/Service Data Management: [If implemented] An administrative interface for adding, editing, and deleting products.
+Credits (If Applicable)
+[Acknowledge any libraries, frameworks, or resources used, e.g.:]
+
+Vue: [https://vuejs.org/]
+MySql: [https://www.mysql.com/]
+Node : [https://nodejs.org/en]
+Author
+ Raeesa , Keanan and Siya
+
+github.com/raebehardien1
