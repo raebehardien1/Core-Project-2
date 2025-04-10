@@ -12,6 +12,8 @@ Author
 Live Demo
 Link to the live deployed website
 
+[![Screenshot of Homepage](https://github.com/raebehardien1/images/blob/b1abeb2ea05f276082342636c216bc485895d5b1/Screenshot%202025-04-08%20142709.png)](https://hr-system-github-io.vercel.app/)
+
 Technologies Used
 Front-end: Vue
 Styling: Custom CSS
